@@ -166,8 +166,8 @@ nav ul li:hover a {
   z-index: 3;
 }
 
-#hamburger-menu {
-  display: none;
+.hamburger-menu {
+  display: none !important;
 }
 
 @media (max-width: 768px) {
@@ -181,7 +181,7 @@ nav ul li:hover a {
   }
 
   .hamburger-menu {
-    display: block;
+    display: block !important;
     grid-area: 10 / 15 / 1 / 10;
     font-size: 20px;
     color: var(--blue-color);
