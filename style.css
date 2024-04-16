@@ -170,7 +170,7 @@ nav ul li:hover a {
   display: none !important;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px){
   header {
     margin: 10% 5%;
     border-bottom: 2px solid var(--gray-color);
