@@ -166,11 +166,7 @@ nav ul li:hover a {
   z-index: 3;
 }
 
-.hamburger-menu i {
-  display: none !important;
-}
-
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   header {
     margin: 10% 5%;
     border-bottom: 2px solid var(--gray-color);
