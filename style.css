@@ -167,44 +167,9 @@ nav ul li:hover a {
 }
 
 .hamburger-menu {
-  display: none !important;
+  display: none;
 }
 
 @media screen and (max-width: 768px){
-  header {
-    margin: 10% 5%;
-    border-bottom: 2px solid var(--gray-color);
-  }
 
-  nav ul {
-    display: none;
-  }
-
-  .hamburger-menu {
-    display: block !important;
-    grid-area: 10 / 15 / 1 / 10;
-    font-size: 20px;
-    color: var(--blue-color);
-  }
-
-  nav section {
-    grid-area: 10 / 15 / 1 / 4;
-  }
-
-  #inicio-logo {
-    font-size: 12px;
-    width: 100px;
-  }
-
-  #image {
-    display: none;
-  }
-
-  #inicio {
-    margin-top: 20%;
-  }
-
-  #inicio p {
-    width: 100%;
-  }
 }
